@@ -3,7 +3,7 @@ import streamlit as st
 
 class AiCodeReviewer:
     def __init__(self):
-        self.key = "AIzaSyDqB--189cWZisGW95qb2sdMzkbTnbq40s"
+        self.key = "YOUR_API_KEY"
 
     def chatbot(self, human_prompt: str = None, system_instruction: str = None) -> object:
         genai.configure(api_key=self.key)
